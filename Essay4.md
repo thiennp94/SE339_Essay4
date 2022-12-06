@@ -5,7 +5,7 @@
 Group members:
 - Elvis Kimara
 - Jack Doe
-- Jacod Larson
+- Jacob Larson
 - Phuoc Nguyen
 
 ## Introduction
