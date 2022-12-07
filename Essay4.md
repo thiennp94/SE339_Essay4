@@ -1,6 +1,6 @@
 # Essay 4
 
-### SE 339 - Group 9 Paste
+### SE 339 - Team 9 Paste
 
 Group members:
 - Elvis Kimara
@@ -20,7 +20,7 @@ TEAMMATES is a Web application that runs on Google App Engine. It has four main 
 
 ## Logic Component
 
-The `Logic` component handles the business logic of TEAMMATES. In particular, it is responsible for:
+The Logic component handles the business logic of TEAMMATES. In particular, it is responsible for:
 
 - Managing relationships between entities, e.g. cascade logic for create/update/delete.
 - Managing transactions, e.g. ensuring atomicity of a transaction.
@@ -62,9 +62,10 @@ API for creating entities:
 
 API for retrieving entities:
 
-+ Attempting to retrieve objects using `null` parameters: Causes an assertion failure.
++ Attempting to retrieve objects using null
+ parameters: Causes an assertion failure.
 + Entity not found:
-  - Returns `null` if the target entity not found. This way, read operations can be used easily for checking the existence of an entity.
+  - Returns null if the target entity not found. This way, read operations can be used easily for checking the existence of an entity.
 
 API for updating entities:
 
