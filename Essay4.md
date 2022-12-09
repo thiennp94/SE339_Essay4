@@ -10,6 +10,8 @@ Group members:
 
 ## Introduction
 
+High level architecture of TEAMMATES:
+
 ![High Level Architecture](highlevelArchitecture.png)
 
 TEAMMATES is a Web application that runs on Google App Engine. It has four main components:
@@ -78,3 +80,6 @@ API for deleting entities:
 + FailDeleteSilentlyPolicy: In general, delete operation do not throw exceptions if the target entity does not exist. This is because if it does not exist, it is as good as deleted.
 + Cascade policy:   When a parent entity is deleted, entities that have referential integrity with the deleted entity should also be deleted.
   Refer to the API for the cascade logic.
+
+## Conclusion
+In general, Logic Component is an extremely important component in Teammates. It helps to handle logical elements of the system without human interaction. Through this component, the data will be screened and processed to serve the data retrieval needs of the user.
